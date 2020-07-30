@@ -109,7 +109,7 @@ header {
   background-image: url('../img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
- /*background-position: left;*/
+ background-position: right;
  /* padding-bottom: 10rem; */
 }
 
@@ -153,3 +153,9 @@ padding-top: 20rem!important;
 html{
   scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  .hero h1 , .hero h2 {
+    font-size: 2em;
+  }
+    }
